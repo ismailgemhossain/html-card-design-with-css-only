@@ -1,0 +1,75 @@
+/* 
+    @Designer: ismmail hossain
+    @auther: ismailgemhossain@gmail.com 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-1 {
+    margin-bottom: 10px;
+}
+
+.mt-1 {
+    margin-top: 10px;
+}
+
+.ml-1 {
+    margin-left: 10px;
+}
+
+.mr-1 {
+    margin-right: 10px;
+}
+
+.label {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px 10px 8px 10px;
+    outline: 0;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background: #ff00001f;
+    color: #d50000;
+    border-radius: 20px;
+}
+
+.card {
+    width: 40%;
+    background-color: wheat;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
