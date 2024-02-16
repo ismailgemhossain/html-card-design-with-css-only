@@ -3,6 +3,12 @@
     @auther: ismailgemhossain@gmail.com 
 */
 
+:root{
+    --space: 10px;
+    --primary: red;
+    --font: 14px;
+}
+
 * {
     margin: 0;
     padding: 0;
