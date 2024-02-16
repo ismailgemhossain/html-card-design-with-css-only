@@ -6,6 +6,8 @@
 :root{
     --space: 10px;
     --primary: red;
+    --info: blue;
+    --success: green;
     --font: 14px;
 }
 
@@ -79,3 +81,28 @@
 .mt-25 {
     margin-top: 25px;
 }
+
+/* common */
+.bg-primary{
+    background-color: var(--primary);
+}
+
+.bg-info{
+    background-color: var(--info);
+}
+
+.bg-success{
+    background-color: var(--success);
+}
+
+.p-1{
+    padding: var(--space);
+}
+
+/* wrapper  */
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
