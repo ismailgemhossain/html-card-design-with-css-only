@@ -3,7 +3,7 @@
     @auther: ismailgemhossain@gmail.com 
 */
 
-:root{
+:root {
     --space: 10px;
     --primary: red;
     --info: blue;
@@ -83,26 +83,82 @@
 }
 
 /* common */
-.bg-primary{
+.bg-primary {
     background-color: var(--primary);
 }
 
-.bg-info{
+.bg-info {
     background-color: var(--info);
 }
 
-.bg-success{
+.bg-success {
     background-color: var(--success);
 }
 
-.p-1{
+.p-1 {
     padding: var(--space);
 }
 
 /* wrapper  */
-.wrapper{
+.wrapper {
     display: flex;
     flex-direction: row;
     gap: 15px;
 }
 
+/* navbar  */
+.navbar {
+    padding: 20px;
+    box-shadow: 0px 3px 2px #f3f3f3;
+}
+
+.nav-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        justify-content: center;
+}
+
+.brand-img{
+    width: 190px;
+}
+
+.search-wrapper {
+    display: flex;
+    gap: 0;
+    align-items: center;
+}
+
+.search-box{
+        padding: 10px 20px;
+        border: 1px solid silver;
+        outline: 0;
+        border-right: none;
+    
+}
+
+.search-btn{
+    border: none;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+}
+
+.menu-wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.menu-item{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: black;
+}
+
+.menu-item:hover{
+    color: red;
+}
